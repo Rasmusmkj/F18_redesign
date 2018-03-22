@@ -316,6 +316,10 @@ background-color: cornflowerblue;
 }
 
 
-
-
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    text-align: center;
+}
 
