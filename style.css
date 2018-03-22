@@ -390,6 +390,7 @@ outline: 2px
 
 
 .bottom {
+        font-family: Yeseva One;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
@@ -397,11 +398,13 @@ outline: 2px
 }
 
 .bottomText{
+        font-family: Yeseva One;
     flex-basis: 200px;
 
 }
 
 .column_content{
+        font-family: Yeseva One;
     background: linear-gradient(rgb(198, 22, 22));
     display: flex;
     justify-content: center;
@@ -412,6 +415,7 @@ outline: 2px
 
 .bottom{
     {
+    font-family: PT Sans;
     background: linear-gradient(rgb(198, 22, 22));
     display: flex;
     justify-content: center;
