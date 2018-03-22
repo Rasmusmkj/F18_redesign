@@ -70,6 +70,7 @@ html {
 
     margin: 50px;
     margin-left: 100px;
+    margin-right: 200px;
     flex-basis: 600px;
 
     transition: all 1.8s;
