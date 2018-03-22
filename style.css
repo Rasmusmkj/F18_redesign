@@ -238,6 +238,7 @@ background-color: cornflowerblue;
     flex-basis: 500px;
 
 
+
 }
 .TextImg_Emne1{
     margin-left: 75px;
@@ -275,7 +276,7 @@ background-color: cornflowerblue;
 
 .TextBox_Emne2{
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     flex-basis: 400px;
 }
 .display{
@@ -283,6 +284,16 @@ background-color: cornflowerblue;
     flex-direction: column;
     flex-basis: 100px;
 
+}
+
+
+
+.trykPicture {
+    height: 200px;
+    width: 200px;
+    background-image: url(placeholderNav1.png);
+    background-position:-80px -10px;
+    background-size: 26em;
 }
 
 *,
