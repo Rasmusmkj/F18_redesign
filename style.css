@@ -67,9 +67,9 @@ html {
     text-shadow: 1px 1px 7px #000000;
     display: flex;
     align-items: center;
-    margin-left: 400px;
+
     margin: 50px;
-    margin-left: 200px;
+    margin-left: 100px;
     flex-basis: 600px;
 
     transition: all 1.8s;
