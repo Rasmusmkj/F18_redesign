@@ -24,7 +24,7 @@ html {
 
     display: flex;
     flex-direction: column;
-
+    height: 830px;
     background: linear-gradient(transparent 0,rgba(0, 0, 0, 0) ), url("InfoPicture.png");
     background-position:bottom;
     background-size: 130em;
@@ -32,7 +32,7 @@ html {
 }
 
 .infosection:hover{
-
+    height: 830px;
     background: linear-gradient(transparent 0,rgba(0, 0, 0, 0.75) ), url("InfoPicture.png");
     background-position:bottom;
     background-size: 150em;
@@ -44,6 +44,7 @@ html {
 
 .infosection:hover >.infotext {
     font-size: 1.8em;
+
 }
 
 .infosection:hover .kontakt_text {
@@ -59,11 +60,11 @@ html {
     font-size: 1.7em;
     color: white;
     text-shadow: 1px 1px 7px #000000;
-    padding-left: 15em;
-    padding-right: 15em;
     display: flex;
     align-items: center;
-    height: 700px;
+    margin: 50px;
+    flex-basis: 600px;
+
     transition: all 1.8s;
 
 
@@ -251,13 +252,38 @@ h1{
 
 }
 
+.Box_Emne2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.TextBox_Emne2{
+    display: flex;
+    align-items: center;
+    flex-basis: 400px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+
+}
+
 *,
 *:before,
 *:after
 
 
 
+@media only screen and (max-width: 717px) {
 
+     #typografi .image{
+       flex-basis: 500px;
+
+    }
+}
 
 
 
