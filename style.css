@@ -6,10 +6,12 @@ html {
     display: flex;
     justify-content:flex-start;
     padding-left: 5em;
+    padding-bottom: 1em;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgb(239, 239, 239) );
 
 
 
-   height: 200px;
+
 
 
 }
