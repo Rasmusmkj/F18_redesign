@@ -271,29 +271,34 @@ background-color: cornflowerblue;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 1000px;
 
 }
 
 .TextBox_Emne2{
     display: flex;
-    align-items:flex-end;
+    align-items:center;
     flex-basis: 400px;
 }
 .display{
     display: flex;
     flex-direction: column;
-    flex-basis: 100px;
+    justify-content: space-around;
+
 
 }
 
 
 
 .trykPicture {
-    height: 200px;
-    width: 200px;
+
+
+    width: 300px;
     background-image: url(placeholderNav1.png);
-    background-position:-80px -10px;
-    background-size: 26em;
+    background-position:-90px 1px;
+    background-size: 33em;
+    height: 300px;
+
 }
 
 *,
