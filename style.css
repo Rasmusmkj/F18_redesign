@@ -6,7 +6,8 @@ html {
     display: flex;
     justify-content:flex-start;
     padding-left: 5em;
-    background-color: rgba(235, 44, 44, 0.94);
+    background-color: #eb2c2c;
+    background: linear-gradient(#eb2c2c,#eb2c2c,#b52222);
 
    height: 200px;
 
@@ -205,7 +206,7 @@ h1{
 
 
 .Box_Emne1{
-    background: linear-gradient(rgb(198, 22, 22));
+
     display: flex;
     justify-content: center;
     height: 40em;
