@@ -24,6 +24,8 @@ html {
 .infosection{
 
     position: absolute;
+    font-family: Yeseva One;
+
 
     display: flex;
     flex-direction: column;
