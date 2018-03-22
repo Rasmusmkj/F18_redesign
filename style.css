@@ -318,8 +318,13 @@ background-color: cornflowerblue;
 
 .bottom {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    text-align: center;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+
+.bottomText{
+    flex-basis: 200px;
+
 }
 
