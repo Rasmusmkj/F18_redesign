@@ -257,10 +257,12 @@ outline: 2px
 }
 
 .top_Emne1{
+     font-family: Yeseva One;
    margin-top: 80px
 }
 
 .bottom_Emne1{
+    font-family: Yeseva One;
     margin-right: 150px;
     margin-top: 50px;
     color: #444444;
@@ -283,6 +285,7 @@ outline: 2px
 }
 
 .TextBox_Emne2{
+     font-family: Yeseva One;
     display: flex;
     align-items:center;
     flex-basis: 400px;
