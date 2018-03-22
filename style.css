@@ -24,6 +24,8 @@ html {
 .infosection{
 
     position: absolute;
+    font-family: Yeseva One;
+
 
     display: flex;
     flex-direction: column;
@@ -255,10 +257,12 @@ outline: 2px
 }
 
 .top_Emne1{
+     font-family: Yeseva One;
    margin-top: 80px
 }
 
 .bottom_Emne1{
+    font-family: PT Sans;
     margin-right: 150px;
     margin-top: 50px;
     color: #444444;
@@ -281,14 +285,18 @@ outline: 2px
 }
 
 .TextBox_Emne2{
+     font-family: PT Sans;
     display: flex;
     align-items:center;
-    flex-basis: 400px;
+    flex-basis: 600px;
+    font-size: 1.4em;
+    color: #444444;
 }
 .display{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-left: 9em;
 
 
 }
@@ -297,13 +305,73 @@ outline: 2px
 
 .trykPicture {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     width: 300px;
-    background-image: url(placeholderNav1.png);
-    background-position:-90px 1px;
-    background-size: 33em;
+    background-image: url(Flyers1.jpg);
+    background-position:-120px -60px;
+    background-size: 30em;
     height: 300px;
+    outline: 1px solid #0f0e0e;
 
+
+}
+
+.trykPicture2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background-image: url(Flyers%202.jpg);
+    background-position:-90px -90px;
+    background-size: 30em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
+
+
+}
+
+.trykPicture3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background-image: url(Flyers3.jpg);
+    background-position:-45px -15px;
+    background-size: 25em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
+
+
+}
+.trykPicture a{
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+    text-shadow: 4px -4px 9px #000000;;
+}
+
+.trykPicture2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+    text-shadow: 4px -4px 9px #000000;;
+}
+
+.trykPicture3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+    text-shadow: 4px -4px 9px #000000;;
 }
 
 *,
@@ -342,7 +410,7 @@ outline: 2px
     background: linear-gradient(rgba(0, 0, 0, 0.35),#EAECEE,#EAECEE);
 }
 
-.bottom{
+.bottom
     {
     background: linear-gradient(rgb(198, 22, 22));
     display: flex;
@@ -353,3 +421,8 @@ outline: 2px
 
 }
 
+.Kontakt {
+    display: flex;
+    justify-content: center;
+
+}
