@@ -6,10 +6,12 @@ html {
     display: flex;
     justify-content:flex-start;
     padding-left: 5em;
+    padding-bottom: 1em;
 
 
 
-   height: 200px;
+
+
 
 
 }
@@ -31,6 +33,7 @@ html {
     background-position:bottom;
     background-size: 130em;
     transition: all 1.8s;
+
 }
 
 .infosection:hover{
@@ -45,7 +48,7 @@ html {
 }
 
 .infosection:hover >.infotext {
-    font-size: 1.8em;
+    font-size: 2.8em;
 
 }
 
@@ -58,8 +61,8 @@ html {
 }
 
 .infotext{
-
-    font-size: 1.7em;
+    font-weight: 600;
+    font-size: 2.7em;
     color: white;
     text-shadow: 1px 1px 7px #000000;
     display: flex;
