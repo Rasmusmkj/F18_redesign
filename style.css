@@ -2,6 +2,8 @@ html {
 
 }
 
+
+
 .logobox {
     display: flex;
     justify-content:flex-start;
@@ -522,7 +524,5 @@ outline: 2px
 }
 
 .Kontakt {
-    display: flex;
-    justify-content: center;
 
 }
