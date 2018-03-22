@@ -316,6 +316,24 @@ outline: 2px
     background-size: 30em;
     height: 300px;
     outline: 1px solid #0f0e0e;
+    transition: all 1.8s;
+
+
+}
+
+.trykPicture:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background-image: url(Flyers%202.jpg);
+    background-position:-90px -90px;
+    background-size: 35em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
 
 
 }
@@ -331,6 +349,23 @@ outline: 2px
     background-image: url(Flyers%202.jpg);
     background-position:-90px -90px;
     background-size: 30em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
+    transition: all 1.8s;
+
+}
+
+.trykPicture2:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background-image: url(Flyers%202.jpg);
+    background-position:-90px -90px;
+    background-size: 35em;
     height: 300px;
     outline: 1px solid #0f0e0e;
 
@@ -350,6 +385,7 @@ outline: 2px
     background-size: 25em;
     height: 300px;
     outline: 1px solid #0f0e0e;
+    transition: all 1.8s;
 
 
 }
