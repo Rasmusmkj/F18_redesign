@@ -266,7 +266,7 @@ outline: 2px
     margin-right: 150px;
     margin-top: 50px;
     color: #444444;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
 }
 
@@ -281,6 +281,7 @@ outline: 2px
     flex-direction: row;
     justify-content: space-around;
     height: 1000px;
+    background: linear-gradient(rgba(0, 0, 0, 0.07),#ffffff,#ffffff);
 
 }
 
@@ -316,6 +317,27 @@ outline: 2px
     background-size: 30em;
     height: 300px;
     outline: 1px solid #0f0e0e;
+    transition: all 1.8s;
+
+
+
+}
+
+.trykPicture:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background: linear-gradient(transparent 0,rgba(0, 0, 0, 0.19) ), url("Flyers1.jpg");
+
+    background-position:-190px -90px;
+    background-size: 32em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
+
 
 
 }
@@ -331,6 +353,23 @@ outline: 2px
     background-image: url(Flyers%202.jpg);
     background-position:-90px -90px;
     background-size: 30em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
+    transition: all 1.8s;
+
+}
+
+.trykPicture2:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background: linear-gradient(transparent 0,rgba(0, 0, 0, 0.19) ), url("Flyers%202.jpg");
+    background-position:-190px -90px;
+    background-size: 32em;
     height: 300px;
     outline: 1px solid #0f0e0e;
 
@@ -350,6 +389,24 @@ outline: 2px
     background-size: 25em;
     height: 300px;
     outline: 1px solid #0f0e0e;
+    transition: all 1.8s;
+
+
+}
+
+.trykPicture3:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background: linear-gradient(transparent 0,rgba(0, 0, 0, 0.19) ), url("Flyers3.jpg");
+    background-position:-90px -90px;
+    background-size: 27em;
+    height: 300px;
+    outline: 1px solid #0f0e0e;
 
 
 }
@@ -357,8 +414,18 @@ outline: 2px
     text-decoration: none;
     color: white;
     font-size: 4em;
-    text-shadow: 4px -4px 9px #000000;;
+    text-shadow: 4px -4px 9px #000000;
 }
+
+.trykPicture:hover a{
+    text-decoration: none;
+    color: white;
+    font-size: 5em;
+    text-shadow: 4px -4px 9px #000000;
+    transition: all 1.8s;
+}
+
+
 
 .trykPicture2 a{
     text-decoration: none;
@@ -367,11 +434,27 @@ outline: 2px
     text-shadow: 4px -4px 9px #000000;;
 }
 
+.trykPicture2:hover a{
+    text-decoration: none;
+    color: white;
+    font-size: 5em;
+    text-shadow: 4px -4px 9px #000000;
+    transition: all 1.8s;
+}
+
 .trykPicture3 a{
     text-decoration: none;
     color: white;
     font-size: 4em;
     text-shadow: 4px -4px 9px #000000;;
+}
+
+.trykPicture3:hover a{
+    text-decoration: none;
+    color: white;
+    font-size: 5em;
+    text-shadow: 4px -4px 9px #000000;
+    transition: all 1.8s;
 }
 
 *,
@@ -390,6 +473,7 @@ outline: 2px
 
 
 .bottom {
+        font-family: Yeseva One;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
@@ -397,21 +481,37 @@ outline: 2px
 }
 
 .bottomText{
+        font-family: Yeseva One;
     flex-basis: 200px;
 
 }
 
 .column_content{
-    background: linear-gradient(rgb(198, 22, 22));
     display: flex;
-    justify-content: center;
-    height: 4em;
+    flex-direction: row;
+    justify-content:flex-start;
+
+
+
+
+        font-family: PT Sans;
+    background: linear-gradient(rgb(198, 22, 22));
+
+    height: 10em;
     background-color: #EAECEE;
-    background: linear-gradient(rgba(0, 0, 0, 0.35),#EAECEE,#EAECEE);
+    background: linear-gradient(rgba(0, 0, 0, 0.05),#efefef,#ffffff);
+}
+
+.top{
+    font-size: 1.2em;
+    flex-basis: 400px;
+    margin-left: 8em;
+    margin-top: 1em;
 }
 
 .bottom
     {
+    font-family: PT Sans;
     background: linear-gradient(rgb(198, 22, 22));
     display: flex;
     justify-content: center;
