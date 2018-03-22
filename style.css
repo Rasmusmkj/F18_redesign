@@ -257,6 +257,12 @@ h1{
 
 
 
+@media only screen and (max-width: 717px) {
 
+     #typografi .image{
+       flex-basis: 500px;
+
+    }
+}
 
 
