@@ -1,0 +1,262 @@
+html {
+
+}
+
+.logobox {
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 5em;
+    background-color: rgba(235, 44, 44, 0.94);
+
+   height: 200px;
+
+
+}
+
+.logoimg{
+
+    height: 200px
+}
+
+.infosection{
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(transparent 0,rgba(0, 0, 0, 0) ), url("InfoPicture.png");
+    background-position:bottom;
+    background-size: 130em;
+    transition: all 1.8s;
+}
+
+.infosection:hover{
+
+    background: linear-gradient(transparent 0,rgba(0, 0, 0, 0.75) ), url("InfoPicture.png");
+    background-position:bottom;
+    background-size: 150em;
+
+
+
+
+}
+
+.infosection:hover >.infotext {
+    font-size: 1.8em;
+}
+
+.infosection:hover .kontakt_text {
+    font-size: 2.1em;
+}
+
+.infosection:hover .kontakt_img {
+    font-size: 2.1em;
+}
+
+.infotext{
+
+    font-size: 1.7em;
+    color: white;
+    text-shadow: 1px 1px 7px #000000;
+    padding-left: 15em;
+    padding-right: 15em;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    transition: all 1.8s;
+
+
+}
+
+
+.kontaktbox{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+
+    padding-right: 10em;
+    padding-bottom: 5em;
+}
+
+.kontakt_text{
+    color: #ffffff;
+    text-shadow: 1px 1px 7px #000000;
+    font-size: 2em;
+    transition: all 1.8s;
+}
+
+.kontakt_img{
+    padding-left: 0.2em;
+   color: #ffffff;
+    text-shadow: 1px 1px 7px #000000;
+    font-size: 2em;
+    transition: all 1.8s;
+}
+
+.navigationbars{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 1311px;
+
+
+
+}
+
+.navboxes{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbox1{
+    width: 110%;
+    height: 10em;
+
+    display: flex;
+    justify-content: center;
+    background-color: #606264;
+    align-items: center;
+    border-color: aquamarine;
+
+    background-image: url(placeholderNav1.png);
+    background-position:1px 290px;
+    background-size: 150em;
+
+
+
+}
+
+.navbox2{
+    width: 110%;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    background-color: #EAECEE;
+    align-items: center;
+    background-image: url(placeholderNav2.png);
+    background-position:1px 290px;
+    background-size: 150em;
+}
+
+.navbox3{
+    width: 110%;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    background-color: #9fa3a7;
+    align-items: center;
+    background-image: url(placeholderNav3.png);
+    background-position:1px 290px;
+    background-size: 150em;
+
+}
+
+.emne1 {
+
+    color: #ffffff;
+    font-size: 5em;
+    text-decoration: none;
+    text-shadow: 1px 1px 7px #000000;
+    transition: all 1.8s;
+}
+
+.emne1:hover{
+    text-decoration:underline;
+    font-size: 6em;
+}
+
+.emne2 {
+
+    color: #ffffff;
+    font-size: 5em;
+    text-decoration: none;
+    text-shadow: 1px 1px 7px #000000;
+    transition: all 1.8s;
+}
+
+.emne2:hover{
+    text-decoration:underline;
+    font-size: 6em;
+}
+
+.emne3 {
+
+    color: #ffffff;
+    font-size: 5em;
+    text-decoration: none;
+    text-shadow: 1px 1px 7px #000000;
+    transition: all 1.8s;
+}
+
+.emne3:hover{
+    text-decoration:underline;
+    font-size: 6em;
+}
+
+h1{
+    font-size: 3em;
+    color: #444444;
+
+}
+
+
+
+.Box_Emne1{
+    background: linear-gradient(rgb(198, 22, 22));
+    display: flex;
+    justify-content: center;
+    height: 40em;
+    background-color: #EAECEE;
+    background: linear-gradient(rgba(0, 0, 0, 0.35),#EAECEE,#EAECEE);
+
+
+
+
+}
+
+.TextBox_Emne1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15em;
+    padding-top: 5em;
+    padding-right: 2em;
+
+
+}
+.TextImg_Emne1{
+    padding-right: 18em;
+
+
+
+}
+
+.top_Emne1{
+    padding-left: 6em;
+}
+
+.bottom_Emne1{
+    padding-top: 5em;
+    padding-left: 4em;
+    padding-right: 1em;
+    color: #444444;
+    font-size: 1.4em;
+
+}
+
+.circlepic{
+    padding-top: 8em;
+    height: 40%;
+
+}
+
+*,
+*:before,
+*:after
+
+
+
+
+
+
