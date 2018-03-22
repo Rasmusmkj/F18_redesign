@@ -6,7 +6,8 @@ html {
     display: flex;
     justify-content:flex-start;
     padding-left: 5em;
-    background-color: rgba(235, 44, 44, 0.94);
+    background-color: #eb2c2c;
+    background: linear-gradient(#eb2c2c,#eb2c2c,#b52222);
 
    height: 200px;
 
@@ -24,7 +25,8 @@ html {
 
     display: flex;
     flex-direction: column;
-
+    width: 1600px;
+    height: 830px;
     background: linear-gradient(transparent 0,rgba(0, 0, 0, 0) ), url("InfoPicture.png");
     background-position:bottom;
     background-size: 130em;
@@ -32,7 +34,7 @@ html {
 }
 
 .infosection:hover{
-
+    height: 830px;
     background: linear-gradient(transparent 0,rgba(0, 0, 0, 0.75) ), url("InfoPicture.png");
     background-position:bottom;
     background-size: 150em;
@@ -44,6 +46,7 @@ html {
 
 .infosection:hover >.infotext {
     font-size: 1.8em;
+
 }
 
 .infosection:hover .kontakt_text {
@@ -59,11 +62,13 @@ html {
     font-size: 1.7em;
     color: white;
     text-shadow: 1px 1px 7px #000000;
-    padding-left: 15em;
-    padding-right: 15em;
     display: flex;
     align-items: center;
-    height: 700px;
+    margin-left: 400px;
+    margin: 50px;
+    margin-left: 200px;
+    flex-basis: 600px;
+
     transition: all 1.8s;
 
 
@@ -230,35 +235,53 @@ background-color: cornflowerblue;
 .TextBox_Emne1{
     display: flex;
     flex-direction: column;
-    padding-left: 15em;
-    padding-top: 5em;
-    padding-right: 2em;
+    flex-basis: 500px;
 
 
 }
 .TextImg_Emne1{
-    padding-right: 18em;
+    margin-left: 75px;
+    flex-basis: 100px;
+    margin-top: 50px;
 
 
 
 }
 
 .top_Emne1{
-    padding-left: 6em;
+   margin-top: 80px
 }
 
 .bottom_Emne1{
-    padding-top: 5em;
-    padding-left: 4em;
-    padding-right: 1em;
+    margin-right: 150px;
+    margin-top: 50px;
     color: #444444;
     font-size: 1.4em;
 
 }
 
 .circlepic{
-    padding-top: 8em;
+
     height: 40%;
+
+}
+
+.Box_Emne2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.TextBox_Emne2{
+    display: flex;
+    align-items: center;
+    flex-basis: 400px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
 
 }
 
@@ -275,5 +298,8 @@ background-color: cornflowerblue;
 
     }
 }
+
+
+
 
 
