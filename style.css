@@ -229,7 +229,8 @@ h1{
 .Box_Emne2{
 display: flex;
 flex-direction: row;
-background-color: cornflowerblue;
+background-color: #f2f2f2;
+outline: 2px
 
 
 
